@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+<center><h5><span class='one'>V</span><span class='two'>i</span><span class='three'>d</span><span class='four'>e</span><span class='five'>o</span> <span class='six'>P</span><span class='seven'>l</span><span class='eight'>a</span><span class='nine'>y</span><span class='ten'>e</span><span class='twelve'>r</span></h5></center>
+<center>
+	<video width="500" height="500" controls controlsList="nodownload" style="border: 2px solid black;>
+		<!-- <source src="VID_34211217_034431_074.mp4" type="video/mp4" > -->
+			<source src="video2.mp4" type="video/mp4" >
+	</video>
+</center>
+<script>
+	$(document).ready(function() {
+		$("video").bind("contextmenu",function(){
+			return false;
+			});
+	 } );
+</script>
+</body>
+</html>
